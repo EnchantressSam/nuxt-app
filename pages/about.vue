@@ -13,3 +13,8 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, odio.</p>
   </section>
 </template>
+<script>
+export default {
+  middleware: ["auth"],
+};
+</script>
